@@ -10,9 +10,9 @@ def nyc_pigeon_organizer(data)
     "Alex" => nil
   }
 
-  data[0].each do |trait, data|
-    pigeons.each do |pigeon|
-      if data[0][trait][data].includes?(pigeon)
+  data[0].each do |trait, info|
+      if organized_pigeons.keys.includes?(data[0][trait][info])
+        organized_pigeons[trait] => data[0][trait][info]
     end
   end
   organized_pigeons
