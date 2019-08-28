@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
   organized_pigeons.each_key do |pigeon|
     data.each_key do |key, hash|
         if data[hash] == pigeon
-          organized_pigeons[pigeon][key] = hash
+          organized_pigeons[pigeon][key] => hash
         end
     end
   end
