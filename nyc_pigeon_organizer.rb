@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   organized_pigeons = {}
 
-    data.each_key do |key, hash|
+    data.each do |key, hash|
       hash.each do |category, info|
         info.each do |name|
         organized_pigeons[name] = {
