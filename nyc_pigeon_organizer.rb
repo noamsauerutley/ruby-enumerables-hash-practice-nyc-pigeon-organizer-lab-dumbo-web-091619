@@ -4,10 +4,11 @@ def nyc_pigeon_organizer(data)
     "Theo" => nil,
     "Peter Jr." => nil,
     "Lucky" => nil,
-    "Mrs. K" => nil, 
+    "Mrs. K" => nil,
     "Queenie" => nil,
     "Andrew" => nil,
-    "Alex" => nil }
+    "Alex" => nil
+  }
 
   data[0].each do |trait, data|
     pigeons.each do |pigeon|
