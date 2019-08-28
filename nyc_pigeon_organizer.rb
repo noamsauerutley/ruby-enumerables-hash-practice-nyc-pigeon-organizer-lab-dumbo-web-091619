@@ -2,11 +2,11 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   organized_pigeons = {
     "Theo" => nil,
-    "Peter Jr." => nil, 
-    "Lucky" => nil, 
+    "Peter Jr." => nil,
+    "Lucky" => nil,
     "Mrs. K" => nil, 
-    "Queenie" => nil, 
-    "Andrew" => nil, 
+    "Queenie" => nil,
+    "Andrew" => nil,
     "Alex" => nil }
 
   data[0].each do |trait, data|
