@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     "Theo" => nil,
     "Peter Jr." => nil,
     "Lucky" => nil,
-    "Mrs. K" => nil,
+    "Ms. K" => nil,
     "Queenie" => nil,
     "Andrew" => nil,
     "Alex" => nil
