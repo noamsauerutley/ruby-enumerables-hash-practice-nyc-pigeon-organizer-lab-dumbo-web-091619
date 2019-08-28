@@ -15,7 +15,6 @@ def nyc_pigeon_organizer(data)
         if data[hash] == pigeon
           organized_pigeons[pigeon][key] = hash
         end
-      end
     end
   end
   return organized_pigeons
