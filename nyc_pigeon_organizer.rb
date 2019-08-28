@@ -1,13 +1,13 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
   organized_pigeons = {
-    "Theo" => {},
-    "Peter Jr." => {},
-    "Lucky" => {},
-    "Mrs. K" => {},
-    "Queenie" => {},
-    "Andrew" => {},
-    "Alex" => {}
+    "Theo" => nil,
+    "Peter Jr." => nil,
+    "Lucky" => nil,
+    "Mrs. K" => nil,
+    "Queenie" => nil,
+    "Andrew" => nil,
+    "Alex" => nil
   }
 
   # organized_pigeons.each_key do |pigeon|
