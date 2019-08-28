@@ -13,5 +13,16 @@ def nyc_pigeon_organizer(data)
         end
     end
   end
+
+pigeons = organized_pigeons.keys
+data[:color].each do |pigeon_color, name|
+  pigeon_name.each do |pigeon_name|
+    pigeons.each do |pigeon|
+      if pigeon_name == pigeon
+        organized_pigeons[pigeon][:color] << gender.to_s
+      end
+    end
+  end
+end
   return organized_pigeons
 end
