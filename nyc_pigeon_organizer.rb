@@ -19,7 +19,7 @@ data[:color].each do |pigeon_color, name|
   name.each do |pigeon_name|
     pigeons.each do |pigeon|
       if pigeon_name == pigeon
-        organized_pigeons[pigeon][:color] << gender.to_s
+        organized_pigeons[pigeon][:color] << pigeon_color.to_s
       end
     end
   end
