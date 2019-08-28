@@ -38,7 +38,7 @@ end
 
 data[:lives].each do |pigeon_lives, name|
   name.each do |pigeon_name|
-    pigeons.each do |pigeon|  
+    pigeons.each do |pigeon|
       if pigeon_name == pigeon
         organized_pigeons[pigeon][:lives] << pigeon_lives.to_s
       end
