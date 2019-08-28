@@ -31,6 +31,7 @@ data[:gender].each do |pigeon_gender, name|
     pigeons.each do |pigeon|
       if pigeon_name == pigeon
         organized_pigeons[pigeon][:gender]<< pigeon_color.to_s
+      end
     end
   end
 end
